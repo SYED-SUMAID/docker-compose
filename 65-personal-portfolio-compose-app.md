@@ -39,9 +39,9 @@ The two containers communicate through the custom Docker network:
 
 PostgreSQL data is stored using the Docker volume:
 
-    db-data
+    portfolio-compose_db-data
 
-
+![alt text](<Screenshot From 2026-09-24 07-54-19.png>)
 ---
 
 ## 📁 Project Structure
@@ -66,6 +66,8 @@ The PostgreSQL database is automatically initialized using:
 
     db/init.sql
 
+### Check the db folder if you want to check in database/init.sql
+
 ### Database Details
 
 | Item | Value |
@@ -83,7 +85,6 @@ The database view provides:
 - ⏳ Remaining labs
 - 💬 Student commentary
 
-![alt text](<Screenshot From 2026-09-23 14-05-59.png>)
 
 ---
 
@@ -203,16 +204,16 @@ If the Dockerfile or application configuration changes:
 
 This project brings several Docker concepts together in one practical application:
 
-- 🐳 Docker containerization
-- ⚙️ Docker Compose
-- 🔗 Container networking
-- 🐘 PostgreSQL
-- 🌐 Apache + PHP
-- 💾 Docker volumes
-- 🔐 Environment variables
-- 🗄️ Database initialization
-- 📊 PostgreSQL views
-- 🔄 Service dependencies
-- ❤️ Container health checks
+-  Docker containerization
+-  Docker Compose
+-  Container networking
+-  PostgreSQL
+-  Apache + PHP
+-  Docker volumes
+-  Environment variables
+-  Database initialization
+-  PostgreSQL views
+-  Service dependencies
+-  Container health checks
 
 ---
